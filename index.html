@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Teachers' Day</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cedarville+Cursive&family=Dancing+Script:wght@400..700&family=Island+Moments&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,400;1,200&family=Story+Script&display=swap"
+    rel="stylesheet">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cedarville+Cursive&family=Dancing+Script:wght@400..700&family=Island+Moments&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,400;1,200&family=Story+Script&display=swap');
+
+    h1 {
+      font-family: "dancing script", cursive;
+      font-size: medium;
+      text-align: center;
+      margin-top: 20px;
+      font-size: 100px;
+    }
+
+    body {
+      margin: 0;
+      font-family: "Bebas Neue", cursive;
+      background: linear-gradient(135deg, #f6f9fc, #dbeafe);
+      color: #333;
+      overflow-x: hidden;
+    }
+
+    header {
+      text-align: center;
+      padding: 40px 20px;
+      background: #2563eb;
+      color: white;
+      border-bottom-left-radius: 50% 10%;
+      border-bottom-right-radius: 50% 10%;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 10px;
+      margin-top: -2px;
+      color: azure;
+    }
+
+    .note {
+      max-width: 800px;
+      font-family: "cadraville cursive", cursive;
+      margin: 40px auto;
+      text-align: center;
+      font-size: 1.1rem;
+      line-height: 1.8;
+      background: white;
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    .gallery {
+      width: 400px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    .card {
+      background: transparent;
+      border-radius: 20px;
+      overflow: hidden;
+      text-align: center;
+      transform: scale(0.9);
+      width: 300px;
+      filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.6));
+      margin: 0 auto;
+      margin-bottom: 30px;
+      transition: transform 0.3s ease;
+    }
+
+    .card img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+    }
+
+    .card h3 {
+      margin: 15px 0;
+      font-size: 30px;
+      color: #2563eb;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      background: #2563eb;
+      color: white;
+      margin-top: 50px;
+    }
+
+    h3 {
+      font-weight: 600;
+      font-size: 50px;
+    }
+
+    .head_section2 {
+      font-family: "Story Script", sans-serif;
+      font-size: 30px;
+      margin-right: 55px;
+      text-align: center;
+    }
+
+    .head_section {
+      text-align: center;
+      font-size: 40px;
+      font-weight: 600;
+    }
+
+    .Helo {
+      font-family: "Story Script", cursive;
+      font-size: 30px;
+      color: #2563eb;
+      font-weight: 600;
+    }
+
+    /* Responsive Styles */
+    @media (max-width: 900px) {
+      .note {
+        max-width: 95vw;
+        padding: 20px;
+        font-size: 1rem;
+      }
+      .gallery {
+        width: 100%;
+        padding: 0 10px;
+      }
+      .card {
+        width: 90vw;
+        max-width: 350px;
+      }
+      .card img {
+        height: 180px;
+      }
+    }
+
+    @media (max-width: 600px) {
+      header {
+        padding: 25px 8px;
+        border-bottom-left-radius: 40% 8%;
+        border-bottom-right-radius: 40% 8%;
+      }
+      header h1 {
+        font-size: 2rem !important;
+        letter-spacing: 1px;
+      }
+      .head_section {
+        font-size: 2rem !important;
+      }
+      .head_section2 {
+        font-size: 1.2rem !important;
+        margin-right: 0;
+      }
+      .note {
+        padding: 12px;
+        font-size: 0.95rem;
+        border-radius: 16px;
+      }
+      .note > div[style*="position: absolute"] {
+        width: 55px !important;
+        height: 55px !important;
+        font-size: 1.5rem !important;
+        top: -20px !important;
+      }
+      .gallery {
+        width: 100%;
+        padding: 0 2px;
+        margin: 20px auto;
+      }
+      .card {
+        width: 98vw;
+        max-width: 98vw;
+        margin-bottom: 18px;
+      }
+      .card img {
+        height: 120px;
+      }
+      h3, .card h3 {
+        font-size: 1.3rem !important;
+      }
+      .Helo {
+        font-size: 1.1rem !important;
+      }
+      footer {
+        padding: 18px;
+        font-size: 0.9rem;
+        margin-top: 30px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1 class="head_section"
+      style="font-family: 'Dancing Script', cursive; font-size: 4rem; letter-spacing: 2px; text-shadow: 2px 4px 12px #1e3a8a99;">
+      Happy Teachers' Day <span style="font-size: 3rem;">🎉</span>
+    </h1>
+    <p class="head_section2"
+      style="font-family: 'Cedarville Cursive', cursive; font-size: 2rem; color: #fbbf24; text-shadow: 1px 2px 8px #1e3a8a66;">
+      To our guiding lights, mentors.💐
+    </p>
+    </div>
+  </header>
+
+  <div class="note" id="note" style="
+    box-shadow: 0 12px 32px rgba(37,99,235,0.25), 0 2px 8px rgba(0,0,0,0.12);
+    background: linear-gradient(135deg, #fff 80%, #dbeafe 100%);
+    border-radius: 30px;
+    transform: perspective(600px) rotateX(6deg) scale(1.03);
+    border: 2px solid #2563eb33;
+    position: relative;
+    transition: transform 0.4s cubic-bezier(.25,.8,.25,1), box-shadow 0.4s;
+  " onmouseover="this.style.transform='perspective(600px) rotateX(0deg) scale(1.06)';this.style.boxShadow='0 24px 48px rgba(37,99,235,0.35), 0 4px 16px rgba(0,0,0,0.18)';"
+    onmouseout="this.style.transform='perspective(600px) rotateX(6deg) scale(1.03)';this.style.boxShadow='0 12px 32px rgba(37,99,235,0.25), 0 2px 8px rgba(0,0,0,0.12)';">
+    <div style="
+      position: absolute;
+      top: -30px; left: 50%; transform: translateX(-50%);
+      width: 80px; height: 80px;
+      background: radial-gradient(circle at 30% 30%, #fbbf24 70%, #f59e42 100%);
+      border-radius: 50%;
+      box-shadow: 0 6px 18px #fbbf2444;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 2.5rem;
+      z-index: 1;
+    ">🌟</div>
+    <div style="padding-top: 40px;">
+      Teachers are the true pillars of success. Your wisdom, kindness, and dedication inspire us to aim higher every
+      day. On this special day, we celebrate <span class="Helo">YOU</span> for shaping not just our careers, but our
+      lives. Thank you for being our guiding star!
+    </div>
+  </div>
+
+  <section class="gallery">
+    <div class="card">
+      <img src="teachers.png" alt="Teacher 1" style="border-radius: 20px;">
+      <h3>Skill O Tech</h3>
+    </div>
+  </section>
+
+  <footer>
+    <p>Made with ❤️ by Students | Teacher's Day 2025</p>
+  </footer>
+
+  <!-- Anime.js CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+ <script src="Script.js"></script>
+</body>
+
+</html>
